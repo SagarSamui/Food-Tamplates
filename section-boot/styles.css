@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.btn-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-1 input{
+    border: none;
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 7px;    
+}
+.btn-1 button{
+    border: none;
+    outline: none;
+    /* border-radius: 5px;     */
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 7px;
+    background: lightgray;
+}
+.navbar{
+    background: rgba(0, 0, 0, 0.8);
+}
+#banner{
+    background: url(./images/brooke-lark-4J059aGa5s4-unsplash.jpg) no-repeat top center;
+    background-size: cover;
+}
+.banner-title h2{
+    padding:5px 6px ;
+    color: white;
+    background:rgb(33, 37, 41,0.8);
+    display: inline-block;
+    margin: 0;
+}
+.banner-title p{
+    padding: 8px 10px;
+    color: solid black;
+    background: rgb(148, 193, 199,0.8);
+    /* font-size: medium; */
+    font-weight: 100;
+}
+.navbar-brand{
+    margin-left: 30px;
+}
+.banner-title{
+    padding-top: 40px;
+padding-bottom: 20px;
+}
+.service-box i{
+    font-size: 40px;
+ color: lightseagreen;
+ margin: 10px 0;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+}
+
+.section h2{
+    width: 100%;
+    /* margin: 0 auto; */
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.section h2::after{
+    content:"";
+    display: block;
+    background: lightseagreen;
+    width: 100px;
+    height: 3px;
+    margin: 10px auto ;
+}
+
+.section h3{
+    color: black;
+    text-align: center;
+}
+
+.section p{
+    text-align: center;
+}
+
+.banner img{
+    width: 90%;
+    height: 450px;
+    padding:40px 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.section-2{
+    width: 100%;
+    background: url(./images/hue12-photography-8rTwokBwz1w-unsplash.jpg) no-repeat top center;
+    background-size: cover;
+    color: rgba(0, 0, 0, 0.6);
+    position:relative;
+    /* padding: 50px 0; */
+}
+.section-2::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(104, 106, 109, 0.6);
+    z-index: 1;
+
+}
+.testimonial{
+    color: white;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+    display: block;
+    /* margin: 100px 0; */
+}
+.testimonial h2{
+    color: black;           
+}
+.testimonial h3{
+    color: white;
+}
+
+.company {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.testimonial i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    color: yellow;
+}
+.testimonial p{
+    padding: 0 80px;
+}
+#news img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+#news p{
+    text-align: left;
+    padding-left: 30px;
+}
+
+.section4{
+    padding: 0 120px;
+}
+
+
+.section4 .containts .head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    padding: 30px 0 10px 0;
+}
+
+.section4 .containts .head h2::after{
+    content:"";
+    display: block;
+    background: lightseagreen;
+    width: 60px;
+    height: 3px;
+    margin: 10px auto ;
+}
+
+.section4 .containts .box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.section4 .containts .box .card{
+    width: 230px;
+    padding: 15px 15px 0 15px;
+    margin: 0 40px 40px 0;
+    box-shadow: 1px 1px 8px 2px rgb(239, 235, 235)
+    
+}
+
+.section4 .containts .box .card img{
+    width: 200px;
+    height: 170px;
+}
+
+.box .card .button{
+    margin: 15px 0 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid rgb(166, 164, 164);
+    font-size: 14px;
+}
+
+.box .card .button button{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 2px 4px;
+    border-right: 1.5px  solid rgb(166, 164, 164);
+    background: #fff;
+    font-weight: 600;
+}
+
+.box .card .button button:hover{
+    background: rgba(162,198,201,1);
+    transition: 0.5s;
+}
+
+.box .card .button span{
+    padding: 2px 4px;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.card p{
+    font-size: 14px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* footer */
+
+.footer {
+    background: rgb(148, 193, 199,0.8);
+    padding:40px 100px;
+    
+}
+
+.top{
+    padding: 20px;
+    background: #27808C;
+}
+
+.first h2{
+    display: inline-block;
+    padding: 2px 40px 2px 2px;
+    background: rgba(245, 243, 243,0.8);
+    margin-bottom: 0;
+}
+
+.first p{
+    font-size: 14px;
+    background: rgba(37, 36, 36,0.8);
+    padding: 5px 10px 5px 5px;
+    color: #fff;
+    
+}
+
+.footer .containts .links{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.links .second{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin-bottom: auto;
+}
+
+.links .second a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 2px 0;
+}
+
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    position: relative;
+
+}
+
+.foot .copy p{
+    font-size: 14px;
+}
+
+.foot .copy i{
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    line-height: 10px;
+    outline: 1px solid rgb(81, 76, 76);
+    border-radius: 50%;
+    margin:  auto 0;
+    font-size: 8px;
+}
+
+.icons i{
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.foot img{
+    width: 100px;
+}
+
+.foot img:nth-child(1){
+    width: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.foot img:nth-child(2){
+    width: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.foot img:nth-child(3){
+    width: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
